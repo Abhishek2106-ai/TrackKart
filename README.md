@@ -250,7 +250,7 @@ CLIENT_URL=
 
 ### Landing Page
 
-![Landing Page](src/assets/screenshots/landingpage.png)
+![Landing Page](client/src/assets/screenshots/landingpage.png)
 
 ### Dashboard
 
