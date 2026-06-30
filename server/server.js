@@ -12,6 +12,8 @@ app.use(
       "http://localhost:5173",
       "http://localhost:5174",
       "https://track-kart.vercel.app",
+      "https://track-kart-git-main-abhishek2106-ais-projects.vercel.app",
+      "https://track-kart-hvwac2t4z-abhishek2106-ais-projects.vercel.app",
     ],
     credentials: true,
   })
