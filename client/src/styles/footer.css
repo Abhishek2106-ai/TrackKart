@@ -1,0 +1,95 @@
+/* ==========================================================
+   TRACKKART — FOOTER
+========================================================== */
+
+.footer {
+  background: #05070E;
+  border-top: 1px solid var(--border);
+  padding: 72px 44px 32px;
+  margin-top: 120px;
+}
+
+.footer-container {
+  max-width: 1350px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1fr;
+  gap: 56px;
+}
+
+.footer-brand h2 {
+  font-size: 30px;
+  font-weight: 800;
+  background: linear-gradient(135deg, #818CF8, #3B82F6);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 16px;
+  letter-spacing: -.8px;
+}
+
+.footer-brand p {
+  color: var(--muted);
+  line-height: 1.85;
+  max-width: 380px;
+  font-size: 15px;
+}
+
+.footer-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-column h3 {
+  color: var(--text);
+  margin-bottom: 20px;
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: -.2px;
+}
+
+.footer-column a {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  text-decoration: none;
+  color: var(--muted);
+  margin-bottom: 13px;
+  font-size: 14.5px;
+  transition: var(--t);
+}
+
+.footer-column a:hover {
+  color: var(--text);
+  transform: translateX(4px);
+}
+
+.footer-bottom {
+  max-width: 1350px;
+  margin: 52px auto 0;
+  padding-top: 22px;
+  border-top: 1px solid var(--border);
+  text-align: center;
+}
+
+.footer-bottom p {
+  color: var(--muted);
+  font-size: 13.5px;
+}
+
+@media (max-width: 960px) {
+  .footer-container {
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+  }
+}
+
+@media (max-width: 580px) {
+  .footer {
+    padding: 56px 20px 28px;
+  }
+
+  .footer-container {
+    grid-template-columns: 1fr;
+    gap: 32px;
+  }
+}

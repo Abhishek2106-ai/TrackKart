@@ -1,0 +1,370 @@
+/* ===================================================
+   TRACKKART HERO DASHBOARD PREVIEW
+=================================================== */
+
+.dashboard-preview {
+  width: 100%;
+  max-width: 470px;
+  min-width: 390px;
+
+  padding: 28px;
+
+  border-radius: 22px;
+
+  background: rgba(15, 23, 42, .82);
+
+  backdrop-filter: blur(22px);
+  -webkit-backdrop-filter: blur(22px);
+
+  border: 1px solid rgba(255,255,255,.08);
+
+  box-shadow:
+    0 18px 60px rgba(0,0,0,.45),
+    0 0 60px rgba(124,58,237,.10);
+
+  animation: float 6s ease-in-out infinite;
+
+  transition: .35s;
+}
+
+.dashboard-preview:hover{
+
+transform:translateY(-8px);
+
+box-shadow:
+0 24px 70px rgba(0,0,0,.55),
+0 0 80px rgba(124,58,237,.22);
+
+}
+
+/* ============================ */
+
+.preview-header{
+
+display:flex;
+
+justify-content:space-between;
+
+align-items:center;
+
+margin-bottom:28px;
+
+}
+
+.preview-small{
+
+display:block;
+
+font-size:11px;
+
+font-weight:700;
+
+letter-spacing:.18em;
+
+text-transform:uppercase;
+
+color:#A78BFA;
+
+margin-bottom:6px;
+
+}
+
+.preview-header h3{
+
+font-size:22px;
+
+font-weight:800;
+
+letter-spacing:-.03em;
+
+}
+
+/* ============================ */
+
+.live-badge{
+
+display:flex;
+
+align-items:center;
+
+gap:8px;
+
+padding:8px 14px;
+
+border-radius:999px;
+
+background:rgba(16,185,129,.12);
+
+border:1px solid rgba(16,185,129,.18);
+
+color:#34D399;
+
+font-size:12px;
+
+font-weight:700;
+
+}
+
+/* ============================ */
+
+.preview-stats{
+
+display:grid;
+
+grid-template-columns:repeat(2,1fr);
+
+gap:16px;
+
+margin-bottom:26px;
+
+}
+
+.preview-card{
+
+display:flex;
+
+align-items:center;
+
+gap:14px;
+
+padding:18px;
+
+border-radius:16px;
+
+background:rgba(255,255,255,.03);
+
+border:1px solid rgba(255,255,255,.06);
+
+transition:.25s;
+
+}
+
+.preview-card:hover{
+
+transform:translateY(-4px);
+
+border-color:rgba(124,58,237,.35);
+
+}
+
+.preview-card svg{
+
+color:#8B5CF6;
+
+}
+
+.preview-card h2{
+
+font-size:28px;
+
+margin-bottom:4px;
+
+font-weight:800;
+
+}
+
+.preview-card p{
+
+font-size:12px;
+
+color:#94A3B8;
+
+}
+
+/* ============================ */
+
+.preview-section-title{
+
+font-size:11px;
+
+letter-spacing:.12em;
+
+text-transform:uppercase;
+
+font-weight:700;
+
+color:#64748B;
+
+margin-bottom:14px;
+
+}
+
+/* ============================ */
+
+.preview-product{
+
+display:flex;
+
+justify-content:space-between;
+
+align-items:center;
+
+padding:18px;
+
+border-radius:16px;
+
+background:rgba(255,255,255,.03);
+
+border:1px solid rgba(255,255,255,.06);
+
+margin-bottom:18px;
+
+}
+
+.preview-product h4{
+
+font-size:15px;
+
+font-weight:700;
+
+margin-bottom:5px;
+
+}
+
+.preview-product span{
+
+font-size:12px;
+
+color:#06B6D4;
+
+}
+
+.price-drop-icon{
+
+display:flex;
+
+align-items:center;
+
+justify-content:center;
+
+width:38px;
+
+height:38px;
+
+border-radius:50%;
+
+background:rgba(16,185,129,.15);
+
+color:#10B981;
+
+}
+
+/* ============================ */
+
+.preview-price,
+.preview-target{
+
+display:flex;
+
+justify-content:space-between;
+
+align-items:center;
+
+padding:4px 0;
+
+font-size:14px;
+
+color:#94A3B8;
+
+}
+
+.preview-price strong,
+.preview-target strong{
+
+font-size:17px;
+
+font-weight:700;
+
+color:white;
+
+}
+
+/* ============================ */
+
+.progress-bar{
+
+height:10px;
+
+margin-top:20px;
+
+border-radius:999px;
+
+overflow:hidden;
+
+background:rgba(255,255,255,.06);
+
+}
+
+.progress-fill{
+
+width:78%;
+
+height:100%;
+
+border-radius:999px;
+
+background:linear-gradient(
+90deg,
+#7C3AED,
+#06B6D4
+);
+
+}
+
+/* ============================ */
+
+.preview-footer{
+
+display:flex;
+
+align-items:center;
+
+gap:10px;
+
+margin-top:22px;
+
+padding-top:18px;
+
+border-top:1px solid rgba(255,255,255,.06);
+
+font-size:13px;
+
+color:#94A3B8;
+
+}
+
+.preview-footer svg{
+
+color:#10B981;
+
+}
+
+/* ============================ */
+
+@media(max-width:1100px){
+
+.dashboard-preview{
+
+max-width:100%;
+
+min-width:unset;
+
+}
+
+}
+
+@media(max-width:768px){
+
+.dashboard-preview{
+
+padding:22px;
+
+}
+
+.preview-stats{
+
+grid-template-columns:1fr;
+
+}
+
+}

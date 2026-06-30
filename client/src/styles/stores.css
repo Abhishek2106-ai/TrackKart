@@ -1,0 +1,238 @@
+/* ==========================================
+   TRACKKART STORES
+========================================== */
+
+.stores-section{
+    max-width:1280px;
+    margin:90px auto;
+    padding:0 40px;
+}
+
+.stores-heading{
+    text-align:center;
+    margin-bottom:55px;
+}
+
+.stores-heading>span{
+
+    display:inline-block;
+
+    padding:8px 18px;
+
+    border-radius:999px;
+
+    background:rgba(124,58,237,.10);
+
+    border:1px solid rgba(124,58,237,.18);
+
+    color:#C4B5FD;
+
+    font-size:12px;
+
+    font-weight:700;
+
+    letter-spacing:.08em;
+
+    text-transform:uppercase;
+
+    margin-bottom:22px;
+
+}
+
+.stores-heading h2{
+
+    font-size:52px;
+
+    margin-bottom:18px;
+
+}
+
+.stores-heading p{
+
+    max-width:620px;
+
+    margin:auto;
+
+    font-size:17px;
+
+}
+
+/* ================================= */
+
+.stores-marquee{
+
+    overflow:hidden;
+
+    position:relative;
+
+}
+
+.stores-track{
+
+    display:flex;
+
+    gap:22px;
+
+    width:max-content;
+
+    animation:marquee 22s linear infinite;
+
+}
+
+.stores-track:hover{
+
+    animation-play-state:paused;
+
+}
+
+@keyframes marquee{
+
+    from{
+
+        transform:translateX(0);
+
+    }
+
+    to{
+
+        transform:translateX(-50%);
+
+    }
+
+}
+
+/* ================================= */
+
+.store-pill{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:16px;
+
+    min-width:240px;
+
+    padding:18px 22px;
+
+    border-radius:18px;
+
+    background:rgba(15,23,42,.82);
+
+    backdrop-filter:blur(18px);
+
+    border:1px solid rgba(255,255,255,.06);
+
+    transition:.3s;
+
+}
+
+.store-pill:hover{
+
+    transform:translateY(-5px);
+
+    border-color:rgba(124,58,237,.35);
+
+    box-shadow:0 15px 40px rgba(124,58,237,.15);
+
+}
+
+.store-logo{
+
+    width:58px;
+
+    height:58px;
+
+    border-radius:16px;
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    color:white;
+
+    font-weight:800;
+
+    font-size:22px;
+
+    filter:grayscale(100%);
+
+    transition:.3s;
+
+}
+
+.store-pill:hover .store-logo{
+
+    filter:none;
+
+    transform:scale(1.08);
+
+}
+
+.store-info h3{
+
+    font-size:18px;
+
+    margin-bottom:6px;
+
+}
+
+.supported{
+
+    display:inline-flex;
+
+    padding:5px 12px;
+
+    border-radius:999px;
+
+    background:rgba(16,185,129,.14);
+
+    color:#34D399;
+
+    font-size:12px;
+
+    font-weight:600;
+
+}
+
+.coming{
+
+    display:inline-flex;
+
+    padding:5px 12px;
+
+    border-radius:999px;
+
+    background:rgba(255,255,255,.05);
+
+    color:#94A3B8;
+
+    font-size:12px;
+
+}
+
+/* ================================= */
+
+@media(max-width:768px){
+
+.stores-section{
+
+padding:0 20px;
+
+}
+
+.stores-heading h2{
+
+font-size:38px;
+
+}
+
+.store-pill{
+
+min-width:200px;
+
+}
+
+}
