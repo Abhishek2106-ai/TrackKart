@@ -1,49 +1,21 @@
-const API = "http://localhost:5000/api/auth";
+import api from "./api";
 
 export const register = async (data) => {
-  const res = await fetch(`${API}/register`, {
-    method: "POST",
-    headers: {
-      "Content-Type": "application/json",
-    },
-    body: JSON.stringify(data),
-  });
-
-  return await res.json();
+  const res = await api.post("/auth/register", data);
+  return res.data;
 };
 
 export const login = async (data) => {
-  const res = await fetch(`${API}/login`, {
-    method: "POST",
-    headers: {
-      "Content-Type": "application/json",
-    },
-    body: JSON.stringify(data),
-  });
-
-  return await res.json();
+  const res = await api.post("/auth/login", data);
+  return res.data;
 };
 
 export const verifyOtp = async (data) => {
-  const res = await fetch(`${API}/verify-otp`, {
-    method: "POST",
-    headers: {
-      "Content-Type": "application/json",
-    },
-    body: JSON.stringify(data),
-  });
-
-  return await res.json();
+  const res = await api.post("/auth/verify-otp", data);
+  return res.data;
 };
 
 export const resendOtp = async (email) => {
-  const res = await fetch(`${API}/resend-otp`, {
-    method: "POST",
-    headers: {
-      "Content-Type": "application/json",
-    },
-    body: JSON.stringify({ email }),
-  });
-
-  return await res.json();
+  const res = await api.post("/auth/resend-otp", { email });
+  return res.data;
 };
