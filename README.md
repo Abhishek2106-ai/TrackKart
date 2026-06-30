@@ -20,11 +20,13 @@ Track product prices across multiple online stores, monitor price changes automa
 
 ## 📖 About
 
-TrackKart is a modern SaaS-based price monitoring platform that automatically tracks product prices across multiple e-commerce websites. Users can set a target price for any supported product and receive instant email notifications when the product reaches or falls below the desired price.
-
-The application eliminates the need for manually checking product prices and provides users with an organized dashboard to manage tracked products, monitor price history, and analyze savings.
+TrackKart is a full-stack price monitoring platform that automatically tracks products from supported e-commerce websites. Users can set a target price, monitor historical price changes through interactive charts, and receive automated email alerts when the desired price is reached. The project demonstrates full-stack web development, background job scheduling, authentication, data visualization, and cloud deployment.
 
 ---
+
+## 🌐 Live Demo
+
+**Website:** https://trackkart.me
 
 # ✨ Features
 
@@ -188,8 +190,7 @@ TrackKart
 ## Clone Repository
 
 ```bash
-git clone https://github.com/your-username/TrackKart.git
-
+git clone https://github.com/Abhishek2106-ai/TrackKart.git
 cd TrackKart
 ```
 
@@ -245,37 +246,27 @@ CLIENT_URL=
 
 ---
 
-# 📸 Screenshots
+## 📸 Screenshots
 
 ### Landing Page
 
-```
-![Landing](assets/screenshots/landingpage.png)
-```
+![Landing Page](assets/screenshots/landingpage.png)
 
 ### Dashboard
 
-```
 ![Dashboard](assets/screenshots/dashboard.png)
-```
 
 ### Price Analytics
 
-```
 ![Price Analytics](assets/screenshots/priceanalytics.png)
-```
 
 ### Add Product
 
-```
 ![Add Product](assets/screenshots/addproduct.png)
-```
 
-### Login Page
+### Login
 
-```
-![Login Page](assets/screenshots/login.png)
-```
+![Login](assets/screenshots/login.png)
 ---
 
 # 💡 Future Improvements
@@ -322,6 +313,10 @@ GitHub:
 https://github.com/Abhishek2106-ai
 
 ---
+
+## ⚠ Disclaimer
+
+TrackKart is an educational portfolio project built for learning purposes. Product data is retrieved from publicly available pages. Always comply with the terms of service of the websites you access.
 
 # ⭐ Show Your Support
 
