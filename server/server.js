@@ -14,6 +14,7 @@ app.use(
       "https://track-kart.vercel.app",
       "https://track-kart-git-main-abhishek2106-ais-projects.vercel.app",
       "https://track-kart-hvwac2t4z-abhishek2106-ais-projects.vercel.app",
+        "https://www.trackkart.me",
     ],
     credentials: true,
   })
