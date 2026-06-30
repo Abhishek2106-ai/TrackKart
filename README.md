@@ -254,19 +254,23 @@ CLIENT_URL=
 
 ### Dashboard
 
-![Dashboard](src/assets/screenshots/dashboard.png)
+![Dashboard](client/src/assets/screenshots/dashboard.png)
 
 ### Price Analytics
 
-![Price Analytics](src/assets/screenshots/priceanalytics.png)
+![Price Analytics](client/src/assets/screenshots/priceanalytics.png)
 
 ### Add Product
 
-![Add Product](src/assets/screenshots/addproduct.png)
+![Add Product](client/src/assets/screenshots/addproduct.png)
 
 ### Login
 
-![Login](src/assets/screenshots/login.png)
+![Login](client/src/assets/screenshots/login.png)
+
+### Admin
+
+![Admin](client/src/assets/screenshots/admin.png)
 
 ---
 
