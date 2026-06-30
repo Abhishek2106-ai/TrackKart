@@ -247,32 +247,35 @@ CLIENT_URL=
 
 # 📸 Screenshots
 
-> Add screenshots after deployment.
-
 ### Landing Page
 
 ```
-screenshots/landing.png
+![Landing](assets/screenshots/landingpage.png)
 ```
 
 ### Dashboard
 
 ```
-screenshots/dashboard.png
+![Dashboard](assets/screenshots/dashboard.png)
 ```
 
 ### Price Analytics
 
 ```
-screenshots/history.png
+![Price Analytics](assets/screenshots/priceanalytics.png)
 ```
 
 ### Add Product
 
 ```
-screenshots/add-product.png
+![Add Product](assets/screenshots/addproduct.png)
 ```
 
+### Login Page
+
+```
+![Login Page](assets/screenshots/login.png)
+```
 ---
 
 # 💡 Future Improvements
