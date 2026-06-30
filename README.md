@@ -250,23 +250,24 @@ CLIENT_URL=
 
 ### Landing Page
 
-![Landing Page](assets/screenshots/landingpage.png)
+![Landing Page](src/assets/screenshots/landingpage.png)
 
 ### Dashboard
 
-![Dashboard](assets/screenshots/dashboard.png)
+![Dashboard](src/assets/screenshots/dashboard.png)
 
 ### Price Analytics
 
-![Price Analytics](assets/screenshots/priceanalytics.png)
+![Price Analytics](src/assets/screenshots/priceanalytics.png)
 
 ### Add Product
 
-![Add Product](assets/screenshots/addproduct.png)
+![Add Product](src/assets/screenshots/addproduct.png)
 
 ### Login
 
-![Login](assets/screenshots/login.png)
+![Login](src/assets/screenshots/login.png)
+
 ---
 
 # 💡 Future Improvements
